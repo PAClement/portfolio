@@ -1,0 +1,88 @@
+@media (max-width: 1035px) {
+    .personnal_info{
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .personnal_info article:nth-child(1){
+        margin: 1%;
+    }
+
+    .personnal_info article:nth-child(2){
+        width: 100%;
+    }
+
+    .techs{
+        margin: 1%;
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    .techs--icon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .info--tech h1{
+        text-align: left;
+        
+    }
+    .splide__arrows{
+        display: none;
+    }
+
+    .svg-tech{
+        height: 100px;
+        width: 100px;
+
+        margin:5%;
+    }
+
+    .project_view .splide{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .splide__list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .splide__slide{
+        width: 100% !important;
+        background-color: rgba(50,50,50,0.4); 
+        margin: 3% 0  !important;
+    }
+
+    .modal-content{
+        background-color: rgba(34, 34, 34, 1);
+        width: auto;
+        height: auto;
+    }
+
+    .info--section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .modal{
+        overflow:auto !important;
+        
+    }
+
+}
