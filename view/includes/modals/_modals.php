@@ -13,17 +13,16 @@
                         </svg>
                     </div>
                     <p class="info--reseau-name color-github">GITHUB</p>
-                    <p class="info--reseau-url">@PAClement</p>
+                    <p class="info--reseau-url">PAClement</p>
                 </a>
-                <a href="https://twitter.com/LG_Clement_" target="_BLANK" class="info--reseau-etat">
+                <a href="https://www.linkedin.com/in/cl%C3%A9ment-paquentin/" target="_BLANK" class="info--reseau-etat">
                     <div class="svg--center">
-                        <svg class="svg-reseau svg-twitter" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <title>Twitter</title>
-                            <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                        <svg class="svg-reseau svg-link" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
                         </svg>
                     </div>
-                    <p class="info--reseau-name color-twitter">TWITTER</p>
-                    <p class="info--reseau-url">@LG_Clement_</p>
+                    <p class="info--reseau-name color-twitter">linkedin</p>
+                    <p class="info--reseau-url">Clement paquentin</p>
                 </a>
                 <a href="https://discord.gg/kS375TxC" target="_BLANK" class="info--reseau-etat">
                     <div class="svg--center">
@@ -33,7 +32,7 @@
                         </svg>
                     </div>
                     <p class="info--reseau-name color-discord">DISCORD</p>
-                    <p class="info--reseau-url">@LG_Steven#7890</p>
+                    <p class="info--reseau-url">LG_Steven#7890</p>
                 </a>
             </div>
             <div class="info--section">
@@ -45,7 +44,7 @@
                         </svg>
                     </div>
                     <p class="info--reseau-name color-youtube">YOUTUBE </p>
-                    <p class="info--reseau-url">@LG_Steven </p>
+                    <p class="info--reseau-url">LG_Steven </p>
                 </a>
                 <a href="https://www.instagram.com/clement_pqtn/" target="_BLANK" class="info--reseau-etat">
                     <div class="svg--center">
@@ -55,7 +54,7 @@
                         </svg>
                     </div>
                     <p class="info--reseau-name color-instagram">INSTAGRAM</p>
-                    <p class="info--reseau-url">@clement_pqtn</p>
+                    <p class="info--reseau-url">clement_pqtn</p>
                 </a>
                 <a href="https://www.twitch.tv/lg_steven" target="_BLANK" class="info--reseau-etat">
                     <div class="svg--center">
@@ -65,20 +64,19 @@
                         </svg>
                     </div>
                     <p class="info--reseau-name color-twitch">TWITCH</p>
-                    <p class="info--reseau-url">@lg_steven</p>
+                    <p class="info--reseau-url">lg_steven</p>
                 </a>
             </div>
             <div class="info--section">
-                <a href="https://steamcommunity.com/profiles/76561198127607181/" target="_BLANK" class="info--reseau-etat">
+                <a href="https://twitter.com/LG_Clement_" target="_BLANK" class="info--reseau-etat">
                     <div class="svg--center">
-                        <svg class="svg-reseau svg-steam" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <title>Steam</title>
-                            <path d="M11.979 0C5.678 0 .511 4.86.022 11.037l6.432 2.658c.545-.371 1.203-.59 1.912-.59.063 0 .125.004.188.006l2.861-4.142V8.91c0-2.495 2.028-4.524 4.524-4.524 2.494 0 4.524 2.031 4.524 4.527s-2.03 4.525-4.524 4.525h-.105l-4.076 2.911c0 .052.004.105.004.159 0 1.875-1.515 3.396-3.39 3.396-1.635 0-3.016-1.173-3.331-2.727L.436 15.27C1.862 20.307 6.486 24 11.979 24c6.627 0 11.999-5.373 11.999-12S18.605 0 11.979 0zM7.54 18.21l-1.473-.61c.262.543.714.999 1.314 1.25 1.297.539 2.793-.076 3.332-1.375.263-.63.264-1.319.005-1.949s-.75-1.121-1.377-1.383c-.624-.26-1.29-.249-1.878-.03l1.523.63c.956.4 1.409 1.5 1.009 2.455-.397.957-1.497 1.41-2.454 1.012H7.54zm11.415-9.303c0-1.662-1.353-3.015-3.015-3.015-1.665 0-3.015 1.353-3.015 3.015 0 1.665 1.35 3.015 3.015 3.015 1.663 0 3.015-1.35 3.015-3.015zm-5.273-.005c0-1.252 1.013-2.266 2.265-2.266 1.249 0 2.266 1.014 2.266 2.266 0 1.251-1.017 2.265-2.266 2.265-1.253 0-2.265-1.014-2.265-2.265z" />
+                        <svg class="svg-reseau svg-twitter" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <title>Twitter</title>
+                            <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
                         </svg>
                     </div>
-                    <p class="info--reseau-name color-steam">STEAM</p>
-                    <p class="info--reseau-url">@lordgamer62</p>
-
+                    <p class="info--reseau-name color-twitter">TWITTER</p>
+                    <p class="info--reseau-url">@LG_Clement_</p>
                 </a>
                 <a href="https://open.spotify.com/user/3daju3f19e5j6ds69owjcdr34?si=bc28757a8f9d4222" target="_BLANK" class="info--reseau-etat">
                     <div class="svg--center">
@@ -88,7 +86,7 @@
                         </svg>
                     </div>
                     <p class="info--reseau-name color-spotify">SPOTIFY</p>
-                    <p class="info--reseau-url">@S&L</p>
+                    <p class="info--reseau-url">Clément</p>
 
                 </a>
                 <a href="https://www.chess.com/member/clementpa" target="_BLANK" class="info--reseau-etat">
@@ -99,7 +97,7 @@
                         </svg>
                     </div>
                     <p class="info--reseau-name color-chesscom">CHESSCOM</p>
-                    <p class="info--reseau-url">@ClementPA</p>
+                    <p class="info--reseau-url">ClementPA</p>
                 </a>
             </div>
         </div>

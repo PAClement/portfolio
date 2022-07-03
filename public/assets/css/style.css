@@ -1,5 +1,5 @@
-
-html,body{
+html,
+body {
     padding: 0;
     margin: 0;
 
@@ -10,14 +10,14 @@ html,body{
     background-size: cover;
 }
 
-a{
-	color: white;
-	text-decoration: none;
+a {
+    color: white;
+    text-decoration: none;
 }
 
 /*=------------PROJECT---------------------------=*/
 
-.project_view{
+.project_view {
     width: auto;
     height: auto;
 
@@ -26,12 +26,12 @@ a{
 
 }
 
-.project--title{
+.project--title {
     color: white;
-    margin:5% 0 0 1%;
+    margin: 5% 0 0 1%;
 }
 
-.project_view article{
+.project_view article {
 
     display: flex;
     flex-direction: column;
@@ -46,47 +46,49 @@ a{
     color: white;
     text-align: center;
     transition: 0.4s all;
-    border-bottom:2px solid #00000000 ;   
+    border-bottom: 2px solid #00000000;
 }
 
-.project_view article:hover{
-    background-color: rgba(50,50,50,0.4); 
-    border-bottom: 2px solid white; 
+.project_view article:hover {
+    background-color: rgba(50, 50, 50, 0.4);
+    border-bottom: 2px solid white;
 }
 
-.project_view .splide{
+.project_view .splide {
     width: 100% !important;
 }
 
-.project_view .splide__pagination__page{
+.project_view .splide__pagination__page {
     display: none;
 }
 
-.project_view p{
+.project_view p {
     margin-bottom: 1.5em;
 }
 
-.project_view h2{
+.project_view h2 {
     letter-spacing: 1px;
     color: #971919;
 }
 
-/*===---===*/
+.project_button {
 
-.btn-href{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 
-.splide--img-comp{
+/*===---===*/
+
+.splide--img-comp {
     display: flex;
     justify-content: space-evenly;
 }
 
-.svg-tech-slide{
+.svg-tech-slide {
     height: 40px;
     width: 40px;
 }
+
 
 /*--------------------------
 ------------MODAL-----------
@@ -94,28 +96,38 @@ a{
 
 /* The Modal (background) */
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: none; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content/Box */
-  .modal-content {
-    background-color: rgba(34, 34, 34, 0.795);
-    margin: auto ; /* 15% from the top and centered */
-    padding: 20px;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 100%;
+    /* Full width */
     height: 100%;
-  }
-  
-  /* The Close Button */
+    /* Full height */
+    overflow: none;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: rgba(34, 34, 34, 0.795);
+    margin: auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+    height: 100%;
+}
+
+/* The Close Button */
 .close {
     color: #aaa;
     float: right;
@@ -134,29 +146,30 @@ a{
 
 /*--------------INFORMATION--------------------------*/
 
-.personnal_info{
+.personnal_info {
     display: flex;
     justify-content: space-around;
 
     margin-top: 2em;
 }
 
-.personnal_info article{
-    height:auto;
+.personnal_info article {
+    height: auto;
     width: 15%;
 
     display: flex;
     flex-direction: column;
 }
 
-.personnal_info article:nth-child(2){
+.personnal_info article:nth-child(2) {
     height: auto;
     width: 50%;
 
 }
+
 /*===---===*/
 
-section .info--perso{
+section .info--perso {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -164,110 +177,117 @@ section .info--perso{
     width: auto;
 }
 
-.info--perso h1{
+.info--perso h1 {
     font-size: 3em;
     color: #2196f3;
 }
 
-.info--perso .info-sepa{
+.info--perso .info-sepa {
     background-color: red;
     height: 1em;
-    margin:0 10% 0 10%;
+    margin: 0 10% 0 10%;
 }
 
-.info--perso ul{
-    margin:0;
+.info--perso ul {
+    margin: 0;
     padding: 0;
 }
 
-.info--perso ul li{
+.info--perso ul li {
     list-style: none;
 
     font-size: 1.5em;
     color: #ddd;
 }
+
 /*===---===*/
 
-.info--tech h1{
+.info--tech h1 {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1.25px;
 
-    color:white;
+    color: white;
     font-size: 2rem;
     text-align: center;
 
     font-weight: bold;
 }
 
-.techs{
+.techs {
     height: auto;
     width: auto;
 }
 
-.techs--icon{
+.techs--icon {
     display: flex;
     justify-content: space-evenly;
     margin: 5% 0;
 }
 
-.svg-tech{
+.svg-tech {
     height: 95px;
     width: 95px;
 
     transition: 0.4s all;
 }
 
-.svg-html{
+.svg-html {
     animation-name: svg-html;
     animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 
-.svg-css{
+.svg-css {
     animation-name: svg-css;
     animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 
-.svg-php{
+.svg-php {
     animation-name: svg-php;
     animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 
-.svg-sql{
+.svg-sql {
     animation-name: svg-sql;
     animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 
-.svg-js{
+.svg-js {
     animation-name: svg-js;
     animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 
-.svg-symfo{
+.svg-symfo {
     animation-name: svg-symfo;
     animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 
-.svg-figma{
+.svg-figma {
     animation-name: svg-figma;
     animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 
-.svg-boostrap{
+.svg-boostrap {
     animation-name: svg-boostrap;
     animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 
-.svg-json{
+.svg-json {
     animation-name: svg-json;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.svg-react {
+    animation-name: svg-react;
     animation-duration: 3s;
     animation-fill-mode: forwards;
 }
@@ -276,10 +296,12 @@ section .info--perso{
     from {
         fill: white;
         opacity: 0;
-      }
-    50%{
+    }
+
+    50% {
         opacity: 1;
     }
+
     to {
         fill: #E34F26;
     }
@@ -290,9 +312,11 @@ section .info--perso{
         fill: white;
         opacity: 0;
     }
-  50%{
-      opacity: 1;
-  }
+
+    50% {
+        opacity: 1;
+    }
+
     to {
         fill: #1572B6;
     }
@@ -303,9 +327,11 @@ section .info--perso{
         fill: white;
         opacity: 0;
     }
-  50%{
-      opacity: 1;
-  }
+
+    50% {
+        opacity: 1;
+    }
+
     to {
         fill: #777BB4;
     }
@@ -316,9 +342,11 @@ section .info--perso{
         fill: white;
         opacity: 0;
     }
-  50%{
-      opacity: 1;
-  }
+
+    50% {
+        opacity: 1;
+    }
+
     to {
         fill: #4479A1;
     }
@@ -329,9 +357,11 @@ section .info--perso{
         fill: white;
         opacity: 0;
     }
-  50%{
-      opacity: 1;
-  }
+
+    50% {
+        opacity: 1;
+    }
+
     to {
         fill: #F7DF1E;
     }
@@ -339,12 +369,14 @@ section .info--perso{
 
 @keyframes svg-symfo {
     from {
-        fill: white;
+        fill: #181717;
         opacity: 0;
     }
-  50%{
-      opacity: 1;
-  }
+
+    50% {
+        opacity: 1;
+    }
+
     to {
         fill: white;
     }
@@ -355,9 +387,11 @@ section .info--perso{
         fill: white;
         opacity: 0;
     }
-  50%{
-      opacity: 1;
-  }
+
+    50% {
+        opacity: 1;
+    }
+
     to {
         fill: #F24E1E;
     }
@@ -369,9 +403,11 @@ section .info--perso{
         fill: white;
         opacity: 0;
     }
-  50%{
-      opacity: 1;
-  }
+
+    50% {
+        opacity: 1;
+    }
+
     to {
         fill: #7952B3;
     }
@@ -379,20 +415,37 @@ section .info--perso{
 
 @keyframes svg-json {
     from {
+        fill: #181717;
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    to {
+        fill: white;
+    }
+}
+
+@keyframes svg-react {
+    from {
         fill: white;
         opacity: 0;
     }
-  50%{
-      opacity: 1;
-  }
+
+    50% {
+        opacity: 1;
+    }
+
     to {
-        fill: #181717;
+        fill: #61DAFB;
     }
 }
 
 /*------------------------------------*/
 
-.info--reseau-contain{
+.info--reseau-contain {
     margin: 10px;
 
     height: auto;
@@ -400,29 +453,30 @@ section .info--perso{
 
 }
 
-.info--reseau-name{
+.info--reseau-name {
     font-family: 'Jura', sans-serif;
 
-    color:#ddd;
-    font-size:1.1rem;
+    color: #ddd;
+    font-size: 1.1rem;
     text-align: center;
 
     margin: 0;
 
     transition: 0.4s all;
-    
+
 }
-.info--reseau-url{
+
+.info--reseau-url {
     font-family: 'Jura', sans-serif;
 
-    color:gray;
-    font-size:1.2rem;
+    color: gray;
+    font-size: 1.2rem;
     text-align: center;
 
     margin: 0;
 }
 
-.svg-reseau{
+.svg-reseau {
 
     height: 65px;
     width: 65px;
@@ -431,109 +485,109 @@ section .info--perso{
     transition: 0.4s all;
 }
 
-.svg--center{
+.svg--center {
     display: flex;
     justify-content: center;
-    margin-bottom: 10% ;
+    margin-bottom: 10%;
 }
 
- a:hover .color-github{
+a:hover .color-github {
     color: white;
     transition: 0.4s all;
- }
+}
 
- a:hover .svg-github{
+a:hover .svg-github {
     fill: #181717;
     transition: 0.4s all;
- }
+}
 
- a:hover .color-twitter{
+a:hover .color-twitter {
     color: #1DA1F2;
     transition: 0.4s all;
- }
+}
 
- a:hover .svg-twitter{
+a:hover .svg-twitter {
     fill: #1DA1F2;
     transition: 0.4s all;
- }
+}
 
- a:hover .color-discord{
+a:hover .color-discord {
     color: #7289DA;
     transition: 0.4s all;
- }
+}
 
- a:hover .svg-discord{
+a:hover .svg-discord {
     fill: #7289DA;
     transition: 0.4s all;
- }
+}
 
- a:hover .color-youtube{
+a:hover .color-youtube {
     color: #FF0000;
     transition: 0.4s all;
- }
+}
 
- a:hover .svg-youtube{
+a:hover .svg-youtube {
     fill: #FF0000;
     transition: 0.4s all;
- }
+}
 
- a:hover .color-instagram{
+a:hover .color-instagram {
     color: #E4405F;
     transition: 0.4s all;
- }
+}
 
- a:hover .svg-instagram{
+a:hover .svg-instagram {
     fill: #E4405F;
     transition: 0.4s all;
- }
+}
 
- a:hover .color-twitch{
+a:hover .color-twitch {
     color: #9146FF;
     transition: 0.4s all;
- }
+}
 
- a:hover .svg-twitch{
+a:hover .svg-twitch {
     fill: #9146FF;
     transition: 0.4s all;
- }
+}
 
- a:hover .color-steam{
-    color: #106897;
+a:hover .color-link {
+    color: #5ab0f7;
     transition: 0.4s all;
- }
+}
 
- a:hover .svg-steam{
-    fill: #106897;
+a:hover .svg-link {
+    fill: #5ab0f7;
     transition: 0.4s all;
- }
+}
 
- a:hover .color-spotify{
+a:hover .color-spotify {
     color: #1ED760;
     transition: 0.4s all;
- }
+}
 
- a:hover .svg-spotify{
+a:hover .svg-spotify {
     fill: #1ED760;
     transition: 0.4s all;
- }
+}
 
- a:hover .color-chesscom{
+a:hover .color-chesscom {
     color: #4F7838;
     transition: 0.4s all;
- }
+}
 
- a:hover .svg-chesscom{
+a:hover .svg-chesscom {
     fill: #4F7838;
     transition: 0.4s all;
- }
+}
 
-.info--section{
+.info--section {
     display: flex;
     justify-content: space-around;
 
 }
 
-.info--reseau-etat{
+.info--reseau-etat {
 
     height: 150px;
     width: 150px;
@@ -541,95 +595,113 @@ section .info--perso{
     margin: 1%;
 }
 
-button{
+button {
     border: 0;
 }
 
-.btn-grad {background-color: #2196f3;}
 .btn-grad {
-   margin: 10px;
-   padding: 12px 35px;
-   text-align: center;
-   transition: 0.5s;
-   color: white;            
-   border-radius: 10px;
-   display: block;
-   width: 100%;
-   font-family: 'Open Sans', sans-serif;
-   font-size: 1rem;
- }
+    background-color: #2196f3;
+}
 
- .btn-grad:hover {
-   background-position: right center; /* change the direction of the change here */
-   color: #fff;
-   background-color:#38a0f5 ;
-   text-decoration: none;
-   cursor: pointer;
- }
+.btn-grad {
+    margin: 10px;
+    padding: 12px 35px;
+    text-align: center;
+    transition: 0.5s;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
 
- .btn-reso {background-color: #580f0f;}
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    background-color: #38a0f5;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .btn-reso {
-   margin: 10px 0;
-   padding: 12px 35px;
-   text-align: center;
-   text-transform: uppercase;
-   transition: 0.5s;
-   color: white;            
-   border-radius: 10px;
-   display: block;
-   width: 100%;
-   font-family: 'Open Sans', sans-serif;
-   font-size: 0.9rem;
- }
+    background-color: #580f0f;
+}
 
-.btn-reso:hover{
-   background-position: right center; /* change the direction of the change here */
-   color: #fff;
-   background-color: #971919;
-   text-decoration: none;
-   cursor: pointer;
- } 
+.btn-reso {
+    margin: 10px 0;
+    padding: 12px 35px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+}
 
- /* The Modal (background) */
+.btn-reso:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    background-color: #971919;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* The Modal (background) */
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: none; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content/Box */
-  .modal-content {
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: none;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
     background-color: #252525dc;
-    margin: 0% auto; /* 15% from the top and centered */
+    margin: 0% auto;
+    /* 15% from the top and centered */
     padding: 20px;
-    width: 80%; /* Could be more or less, depending on screen size */
-  }
-  
-.modal-content h1{
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+.modal-content h1 {
     color: white;
     text-align: center;
 
     margin-bottom: 10%;
 }
 
-  /* The Close Button */
-  .close {
+/* The Close Button */
+.close {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
+}
+
+.close:hover,
+.close:focus {
     color: white;
     text-decoration: none;
     cursor: pointer;
-  }
+}
