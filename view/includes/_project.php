@@ -1,5 +1,6 @@
 <?php
 $projects = $json->projects;
+$modalProjects = $json->projects;
 ?>
 <div class="project--title">
     <h1>
@@ -27,6 +28,10 @@ $projects = $json->projects;
                                             </svg>
                                         </button>
                                     </a>
+                                <?php else : ?>
+                                    <button id="myBtn_<?= $projects->id ?>" class="btn-grad" style="background-color: #6210B4;">
+                                        Voir le projet
+                                    </button>
                                 <?php endif; ?>
                                 <?php if ($projects->gitHub !== "") : ?>
                                     <a target="_BLANK" href="<?= $projects->gitHub ?>">
@@ -42,7 +47,6 @@ $projects = $json->projects;
                             <div class="splide--img-comp">
                                 <?= $projects->img ?>
                             </div>
-
                         </article>
                     </li>
                 <?php endforeach; ?>
@@ -50,3 +54,45 @@ $projects = $json->projects;
         </div>
     </div>
 </section>
+<?php foreach ($modalProjects as $projects) : ?>
+    <?php if ($projects->url == "") : ?>
+        <div id="myModal_<?= $projects->id ?>" class="modal" style="padding-bottom: 1em;">
+            <!-- Modal content -->
+            <div class="modal-content" style="overflow: auto;">
+                <span id="closeModal_<?= $projects->id ?>" class="close">&times;</span>
+                <?php foreach ($projects->modalProjectInfos as $info) : ?>
+                    <h2 style="color: white; font-weight:400px;">- <?= $info->first ?></h2>
+                    <div style="display: flex; justify-content:space-evenly; flex-wrap:wrap;">
+                        <?php for ($i = 0; $i < count($info->img); $i++) : ?>
+                            <img src="<?= $info->img[$i] ?>" alt="" height="500" style="margin: 1em;">
+                        <?php endfor; ?>
+                    </div>
+                <?php endforeach; ?>
+            </div>
+        </div>
+        <script>
+            // Get the modal
+            let modal_<?= $projects->id ?> = document.getElementById("myModal_<?= $projects->id ?>");
+            let btn_<?= $projects->id ?> = document.getElementById("myBtn_<?= $projects->id ?>");
+            let span_<?= $projects->id ?> = document.getElementById("closeModal_<?= $projects->id ?>");
+
+
+            btn_<?= $projects->id ?>.onclick = function() {
+                modal_<?= $projects->id ?>.style.display = "block";
+            }
+
+
+            span_<?= $projects->id ?>.onclick = function() {
+                modal_<?= $projects->id ?>.style.display = "none";
+            }
+
+
+            window.addEventListener("click", function(event) {
+                if (event.target == modal_<?= $projects->id ?>) {
+                    modal_<?= $projects->id ?>.style.display = "none";
+                }
+            });
+        </script>
+    <?php endif; ?>
+
+<?php endforeach; ?>

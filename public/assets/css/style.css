@@ -167,6 +167,13 @@ a {
 
 }
 
+/*--------------ModalProject--------------------------*/
+
+.modalProjectInfo {
+    height: 100px;
+    width: 100px;
+}
+
 /*===---===*/
 
 section .info--perso {
